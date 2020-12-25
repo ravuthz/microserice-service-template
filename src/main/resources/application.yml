@@ -1,0 +1,23 @@
+server:
+  port: ${PORT:9001}
+
+spring:
+  devtools:
+    add-properties: false
+    livereload:
+      enabled: false
+    restart:
+      exclude: 'static/**,public/**'
+  security:
+    user:
+      roles: ${CONFIG_ROLES:manager}
+      name: ${CONFIG_USERNAME:adminz}
+      password: ${CONFIG_PASSWORD:123123zZ}
+  application:
+    name: SERVICE-TEMPLATE
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
