@@ -1,0 +1,36 @@
+{
+  "name": "Service Template",
+  "description": "Deployment Service Template to Heroku",
+  "keywords": [
+    "template",
+    "service",
+    "heroku"
+  ],
+  "stack": "container",
+  "success_url": "/",
+  "env": {
+    "CONFIG_ROLES": {
+      "description": "Initial Admin roles",
+      "value": "manager"
+    },
+    "CONFIG_USERNAME": {
+      "description": "Initial Admin username",
+      "value": "adminz"
+    },
+    "CONFIG_PASSWORD": {
+      "description": "Initial Admin password",
+      "value": "123123zZ"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Performance-M"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
+}
