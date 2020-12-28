@@ -1,6 +1,6 @@
 {
-  "name": "Service Template",
-  "description": "Deployment Service Template to Heroku",
+  "name": "Config Server",
+  "description": "Deployment Config Server to Heroku",
   "keywords": [
     "template",
     "service",

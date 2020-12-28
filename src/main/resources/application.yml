@@ -14,7 +14,7 @@ spring:
       name: ${CONFIG_USERNAME:adminz}
       password: ${CONFIG_PASSWORD:123123zZ}
   application:
-    name: SERVICE-TEMPLATE
+    name: CONFIG-SERVER
 
 management:
   endpoints:
