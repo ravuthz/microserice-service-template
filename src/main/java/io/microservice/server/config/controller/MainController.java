@@ -1,4 +1,4 @@
-package io.microservice.servicetemplate.controller;
+package io.microservice.server.config.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

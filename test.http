@@ -1,0 +1,26 @@
+###
+GET http://adminz:123123zZ@localhost:9001
+###
+GET http://adminz:123123zZ@localhost:9001/app/default
+###
+GET http://adminz:123123zZ@localhost:9001/application/default/master
+
+###
+GET http://adminz:123123zZ@localhost:9001/app/dev
+###
+GET http://adminz:123123zZ@localhost:9001/application/dev/master
+
+
+###
+GET http://adminz:123123zZ@localhost:9001/application-default.properties
+###
+GET http://adminz:123123zZ@localhost:9001/application-dev.properties
+
+
+###
+GET http://adminz:123123zZ@localhost:9001/actuator/env
+###
+GET http://adminz:123123zZ@localhost:9001/actuator/default
+
+###
+GET http://adminz:123123zZ@localhost:9001/actuator/dev
